@@ -1,0 +1,336 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f8ff;
+    align-items: center;
+
+}
+
+.nav__link {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav__link:hover {
+    background-color: #1e90ff;
+    color: white;
+    border-radius: 20px;
+}
+
+.nav__link:active {
+    background-color: blue;
+    color: white;
+}
+
+h1 {
+    text-decoration-style: solid;
+    color: #eccfa4;
+    -webkit-text-stroke: .02em black;
+    font-style: normal;
+    font-size: 45px;
+    text-shadow: whitesmoke;
+    font-weight: bold;
+    font-family: fantasy;
+    background-color: white;
+    background: url(./0af05023cae5592c2874d6a6f5ac02b4.jpeg);
+    background-attachment: fixed;
+    text-align: center;
+    background-size: auto;
+    z-index: 10px;
+    top: auto;
+    margin: 0 0;
+}
+
+.h2 {
+    display: fixed;
+    text-align: center;
+    font-size: 50px;
+    background: url(./0af05023cae5592c2874d6a6f5ac02b4.jpeg);
+    background-position: 100%;
+    background-clip: unset;
+    background-position: center;
+    border: #1e90ff;
+    box-shadow: 0 0 50px 5px #1e90ff;
+    margin: 0 0;
+}
+
+.h3 {
+    display: fixed;
+    text-align: center;
+    font-size: 50px;
+}
+
+button {
+    color: azure;
+    border-color: dodgerblue;
+    border-radius: 10px;
+    background-color: #1e90ff;
+    padding: 10px;
+    min-width: 100px;
+    min-height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+    transition: 0.6s;
+}
+
+
+.button {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    position: static;
+    align-items: center;
+    font-size: large;
+    min-width: 200px;
+
+}
+
+.img_line {
+    display: flex;
+    height: 580px;
+    border-radius: 40px;
+    padding: 25px;
+}
+
+.minetext {
+    position: static;
+    font-size: 30px;
+
+    top: calc(50%-7px);
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 {
+    background-size: auto;
+    background-position: auto;
+    margin: 15px 0;
+}
+
+.element {
+    display: inline-block;
+    background-color: gainsboro;
+    opacity: 0.5;
+    float: none;
+    width: 100%;
+    border: 2px solid rgba(65, 64, 64, 0.332);
+    text-align: center;
+}
+
+.element a {
+    display: inline-block;
+    margin: 0px 30px;
+    text-align: center;
+}
+
+.element p {
+    display: inline-block;
+    margin: 20px 30px;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.onebut {
+    position: static;
+    text-align: right;
+    width: 100%;
+    padding-right: 0px 15px;
+    margin-right: auto;
+}
+
+.mynumber {
+    justify-content: end;
+    position: static;
+    text-align: right;
+
+    padding-right: 0px 15px;
+    margin-right: 15px;
+}
+
+.img_centr {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-content: center;
+    padding: 20px;
+    margin: 30px;
+
+}
+
+.tarifs {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.t_a {
+    border: 0.5px solid rgba(128, 128, 128, 0.286);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 30px;
+    color: rgba(0, 0, 255, 0.697);
+    size: 20px;
+    font-size: 26px;
+}
+
+.t_b {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.t_c {
+    color: #000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}
+
+.button_a {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 100%;
+    border: none;
+    text-align: center;
+
+}
+
+.onephoto {
+    border-radius: 40px;
+}
+
+.nav__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+}
+
+.nav__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.mynumber {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.mynumber__block {
+    max-width: 150px;
+    width: 100%;
+    margin-right: 20px;
+}
+
+
+.mynumber__text {
+    margin: 0;
+}
+
+.mynumber__link {
+    width: 100px;
+}
+
+.mynumber__but {
+    font-size: 14px;
+    width: 220px;
+    height: 55px;
+    background-color: #f0f8ff;
+    color: #000000;
+    border: none;
+}
+
+.mynumber__but:hover {
+    background-color: blue;
+    color: azure;
+    border-color: dodgerblue;
+}
+
+.but2 {
+    font-size: 45px;
+    height: 110px;
+
+}
+
+.h2__but2 {
+    margin: 100px 0;
+}
+
+.h3__type {
+    background: linear-gradient(45deg, #2d27ff, #ff0a6c);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-size: 40px;
+}
+
+.h3__type2 {
+    text-decoration-style: solid;
+    color: #eccfa4;
+    -webkit-text-stroke: .02em black;
+    font-style: normal;
+    font-size: 45px;
+    text-shadow: whitesmoke;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+input {
+    height: 46px;
+    width: 400px;
+    font-size: 22px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+
+}
+
+.input__but {
+    height: 46px;
+    width: 400px;
+    font-size: 22px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+
+}
+
+@media (max-width: 500px) {
+    .img_line {
+        flex-direction: column;
+    }
+}
